@@ -16,8 +16,8 @@ Here are the results from each algorithm
 
 I used Ensemble Classifiers to Predict Credit Risk
 Trained and compared two different ensemble classifiers by resampling the dataset, checked the count of the target classes to make sure they were equal and trained the ensemble classifier to calculate the balanced accuracy score, generate a confusion matrix and generate a classification report. 
-•	BalanceRandomForestClassifier
+* BalanceRandomForestClassifier
 
-•	EasyEnsembleClassifier
+* EasyEnsembleClassifier
 
 
