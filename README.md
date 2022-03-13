@@ -22,5 +22,5 @@ Trained and compared two different ensemble classifiers by resampling the datase
 
 
 ## Summary 
-Results
-Recommendation on which model  to use or there is no recommenmdatiomn with a justification. 
+* Results
+* Recommendation on which model  to use or there is no recommenmdatiomn with a justification. 
