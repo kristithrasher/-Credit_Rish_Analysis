@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 ## Overview
-I was asked to help with the analysis on loan status and the real-world challenge of credit card risk.  LendingClub, a peer-to-peer lending services company presented me with a credit card credit dataset.
+LendingClub, a peer-to-peer lending services company presented me with a credit card credit dataset. Using different Models to predict Credit Risk and compare them and decide if there is one with positive performace that I would reccomend a model to predict credit risk. 
 
 ## Analysis
 Compared two oversampling algorithms to determine which algorithm results in the best performance. I oversampled the data using two different algorithms (Naïve Random Oversampling, Smote Oversampling). I then tested a undersampling algorithm (Cluster Centroids algorithm) to determine which algorithm results in the best performance compared to the oversampling algorithms.  I also used a Combination (Over and Under) Sampling algorithm (SMOTEENN algorithm) to determine if the algorithm results in the best performance by comparing those to the other sampling algorithms. SO for each algorithm test I viewed the count of the target classes, resampled the data and trained it using the logistic regression model, calculated the balanced accuracy score, printed the confusion matrix and generated a classification report for each algorithm. 
@@ -21,3 +21,6 @@ Trained and compared two different ensemble classifiers by resampling the datase
 * EasyEnsembleClassifier
 
 
+## Summary 
+Results
+Recommendation on which model  to use or there is no recommenmdatiomn with a justification. 
