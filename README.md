@@ -40,15 +40,28 @@ Here are the results from each algorithm and explanation of each algorithm I use
 
 I used Ensemble Classifiers to Predict Credit Risk
 
-Trained and compared two different ensemble classifiers by resampling the dataset, checked the count 
+Trained and compared two different ensemble classifiers 
 
 * Balanced Random Forest Classifier
 
+![BalancedRandomForestClassifier](https://user-images.githubusercontent.com/94208810/158257219-89def98d-4cec-4ef2-9a99-35dc8e4e1fca.png)
+
+
 * Easy Ensemble Classifier
+
+![EasyEnsembleClassifier](https://user-images.githubusercontent.com/94208810/158257274-53f4e88b-e494-4a51-860f-f19d2d8d05d0.png)
 
 
 ## Summary 
-LendingClub, a peer-to-peer lending services company presented me with a credit card credit dataset. Using different machine learning models, I was able to predict Credit Risk based on the data and compare them.  Then had to decide if there is one with positive performance that I would recommend or not. After performing the analysis of credit rish using several algorithms I have come to the consclusion that 
+LendingClub, a peer-to-peer lending services company presented me with a credit card credit dataset. Using different machine learning models, I was able to predict Credit Risk based on the data and compare them.  
+After performing the analysis of credit rish using several algorithms I have come to the consclusion with the results listed below for each algorithm. 
 
-* Results
+### Results
+* Naive
+* Smote
+* ClusterCentroids
+* SMOTEENN
+* Balanced Random Forest Classifier
+* Easy Ensemble Classifier 
+
 * Recommendation on which model  to use or there is no recommendation with a justification.
