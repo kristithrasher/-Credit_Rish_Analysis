@@ -39,14 +39,8 @@ Here are the results from each algorithm and explanation of each algorithm I use
 
 
 I used Ensemble Classifiers to Predict Credit Risk
+
 Trained and compared two different ensemble classifiers by resampling the dataset, checked the count 
-
- the classification report:
-Precision: Precision is the measure of how reliable a positive classification is. From our results, the precision for the good loan applications can be determined by the ratio TP/(TP + FP), 
-Recall: Recall is the ability of the classifier to find all the positive samples. It can be determined by the ratio: TP/(TP + FN), A low recall is indicative of a large number of false negatives.
-F1 score: F1 score is a weighted average of the true positive rate (recall) and precision, where the best score is 1.0 and the worst is 0.0.
-Support: Support is the number of actual occurrences of the class in the specified dataset. 
-
 
 * Balanced Random Forest Classifier
 
@@ -54,7 +48,7 @@ Support: Support is the number of actual occurrences of the class in the specifi
 
 
 ## Summary 
-LendingClub, a peer-to-peer lending services company presented me with a credit card credit dataset. Using different machine learning models, I was able to predict Credit Risk based on the data and compare them.  Then had to decide if there is one with positive performance that I would recommend a model to predict credit risk. 
+LendingClub, a peer-to-peer lending services company presented me with a credit card credit dataset. Using different machine learning models, I was able to predict Credit Risk based on the data and compare them.  Then had to decide if there is one with positive performance that I would recommend or not. After performing the analysis of credit rish using several algorithms I have come to the consclusion that 
 
 * Results
 * Recommendation on which model  to use or there is no recommendation with a justification.
