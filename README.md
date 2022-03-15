@@ -18,22 +18,25 @@ For each algorithm test
 
 Here are the results from each algorithm and explanation of each algorithm I used and why. 
 * OVERSAMPLING
-	* Naïve Random algorithm: 
+	* Naïve Random algorithm: (Balanced Accuracy Score of 64%, Precision score of .01 for high risk and F1 score of .02 for high risk loan status)
 	
 ![Naive](https://user-images.githubusercontent.com/94208810/158230373-c0d4151f-5dcc-4deb-85d7-b70ef9301535.png)
 
-	* Smote algorithm creates a sample from the minority class.
+	* Smote algorithm creates a sample from the minority class: (Balanced Accuracy Score of 64%, Precision score of .01 for high risk and F1 score of .02 for high risk loan status)
+	
 	
 ![Smote](https://user-images.githubusercontent.com/94208810/158230405-e4dbd1ff-4e99-4308-8a1c-499127faeb37.png)
 
 * UNDERSAMPLING
-  	* Cluster Centroids
+  	* Cluster Centroids: (Balanced Accuracy Score of 64%, Precision score of .01 for high risk and F1 score of .01 for high risk loan status)
+	
   	
   ![ClusterCentroids](https://user-images.githubusercontent.com/94208810/158230427-b38cee4c-49e8-4ba0-90dd-33890554ebb1.png)
 
  * Combination (Over and Under) 
  
- 	* SMOTEENN  
+ 	* SMOTEENN: ( (Balanced Accuracy Score of 51%, Precision score of .01 for high risk and F1 score of .02 for high risk loan status)
+	  
  	
  ![SMOTEEN](https://user-images.githubusercontent.com/94208810/158230460-ea169493-a5a8-4e79-a4e3-95a0ff230bbd.png)
 
@@ -42,16 +45,18 @@ I used Ensemble Classifiers to predict credit risk because it creates a machine 
 
 Trained and compared two different ensemble classifiers 
 
-* Balanced Random Forest Classifier it randomly under samples each bootstrap sample to balance it. 
+* Balanced Random Forest Classifier randomly under samples each bootstrap sample to balance it. ( (Balanced Accuracy Score of 79%, Precision score of .04 for high risk and F1 score of .07 for high risk loan status)
+	 
 
 ![BalancedRandomForestClassifier](https://user-images.githubusercontent.com/94208810/158257219-89def98d-4cec-4ef2-9a99-35dc8e4e1fca.png)
 
-* Easy Ensemble Classifier balances data by randomly under sampling. 
+* Easy Ensemble Classifier balances data by randomly under sampling. ( (Balanced Accuracy Score of 93%, Precision score of .07 for high risk and F1 score of .14 for high risk loan status)
+	
 
 ![EasyEnsembleClassifier](https://user-images.githubusercontent.com/94208810/158257274-53f4e88b-e494-4a51-860f-f19d2d8d05d0.png)
 
 
 ## Summary 
-LendingClub, a peer-to-peer lending services company presented me with a credit card credit dataset. Using different machine learning models, I was able to predict Credit Risk based on the data and compare them.  
-After performing the analysis of credit rish using several algorithms I have come to the consclusion with the results listed below for each algorithm. 
+LendingClub, a peer-to-peer lending services company presented me with a credit card credit dataset. Using several different machine learning models and algorithms, I was able to predict Credit Risk based on the data and compare them.  
+After performing the analysis of credit rish using several algorithms I have come to the consclusion with the results listed above for each algorithm. Most all of the precision scores were low for high risk loans. THe ensemble classifiers showed higher balanced accuracy scores with Easy Ensemble Classifier having a high balanced accuracy score of 93% and looking at the highest F1 Score at .14. I believe that Easy Ensemble AdaBoost model was the best to use in predicting credit risk. 
 
